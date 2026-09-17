@@ -1,5 +1,5 @@
 import { StatusCodes } from "http-status-codes";
-import ExpressError from "../utils/expressError.js";
+import ExpressError from "../utils/ExpressError.js";
 import {langfuse} from "../utils/langfuse.js"
 import { app as ragGraph } from "../knowledgegraph/graph.js";
 
